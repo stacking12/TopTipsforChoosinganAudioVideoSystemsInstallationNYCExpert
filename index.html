@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Video Systems Installation NYC | Audio Videos NYC</title>
+    <meta name="description" content="Professional Audio Video Systems Installation NYC. Conference Room AV, CCTV, Surveillance & Tech Audio Camera Installation in Manhattan & NYC. Call 212-671-3330.">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Georgia', 'Times New Roman', serif; color: #1a1a2e; line-height: 1.6; overflow-x: hidden; background: #F4F7FB; }
+
+        /* Header */
+        header { position: sticky; top: 0; background: linear-gradient(135deg, #0a0a1a 0%, #1a1a2e 100%); padding: 1rem 2rem; box-shadow: 0 4px 20px rgba(0,120,255,0.2); z-index: 1000; animation: slideDown 0.6s ease-out; border-bottom: 2px solid #0078FF; }
+        @keyframes slideDown { from { transform: translateY(-100%); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+        .header-content { max-width: 1400px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+        .logo-section { display: flex; align-items: center; gap: 1rem; }
+        .logo { height: 60px; width: auto; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,120,255,0.3); }
+        .brand-name { color: #fff; font-size: 1.3rem; font-weight: bold; letter-spacing: 0.5px; }
+        .header-buttons { display: flex; gap: 1rem; align-items: center; }
+        .btn-header { padding: 0.7rem 1.6rem; border: none; border-radius: 50px; font-size: 0.95rem; font-weight: 600; cursor: pointer; transition: all 0.3s ease; text-decoration: none; display: inline-block; font-family: 'Arial', sans-serif; }
+        .btn-phone { background: linear-gradient(135deg, #0078FF 0%, #0055CC 100%); color: #fff; box-shadow: 0 4px 15px rgba(0,120,255,0.4); }
+        .btn-phone:hover { transform: translateY(-2px); box-shadow: 0 6px 25px rgba(0,120,255,0.6); }
+        .btn-website { background: transparent; color: #0078FF; border: 2px solid #0078FF; }
+        .btn-website:hover { background: #0078FF; color: #fff; transform: translateY(-2px); }
+
+        /* Hero */
+        .hero { position: relative; background: linear-gradient(135deg, #0a0a1a 0%, #0d1b3e 50%, #0a2a6e 100%); padding: 8rem 2rem 6rem; text-align: center; overflow: hidden; }
+        .hero::before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: radial-gradient(circle at 20% 50%, rgba(0,120,255,0.15) 0%, transparent 50%), radial-gradient(circle at 80% 50%, rgba(0,200,255,0.1) 0%, transparent 50%); animation: shimmer 8s ease-in-out infinite; }
+        @keyframes shimmer { 0%, 100% { opacity: 0.3; } 50% { opacity: 0.7; } }
+        .hero-content { position: relative; z-index: 1; max-width: 1000px; margin: 0 auto; animation: fadeInUp 1s ease-out; }
+        @keyframes fadeInUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+        .hero h1 { font-size: 3.2rem; color: #fff; margin-bottom: 1.5rem; font-weight: 700; text-shadow: 2px 2px 8px rgba(0,0,0,0.5); line-height: 1.2; }
+        .hero-subheading { font-size: 1.4rem; color: #7EC8FF; margin-bottom: 3rem; font-weight: 300; font-family: 'Arial', sans-serif; }
+        .hero-cta { display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap; }
+        .btn-hero { padding: 1.2rem 3rem; border: none; border-radius: 50px; font-size: 1.1rem; font-weight: 600; cursor: pointer; transition: all 0.3s ease; text-decoration: none; display: inline-block; font-family: 'Arial', sans-serif; }
+        .btn-primary { background: linear-gradient(135deg, #0078FF 0%, #0055CC 100%); color: #fff; box-shadow: 0 6px 25px rgba(0,120,255,0.5); }
+        .btn-primary:hover { transform: translateY(-3px); box-shadow: 0 8px 35px rgba(0,120,255,0.7); }
+        .btn-secondary { background: transparent; color: #7EC8FF; border: 2px solid #7EC8FF; }
+        .btn-secondary:hover { background: rgba(126,200,255,0.15); transform: translateY(-3px); }
+
+        /* Sections */
+        section { padding: 5rem 2rem; max-width: 1400px; margin: 0 auto; }
+        .section-title { font-size: 2.6rem; color: #0a2a6e; text-align: center; margin-bottom: 1rem; font-weight: 700; }
+        .section-subtitle { font-size: 1.1rem; color: #0055CC; text-align: center; margin-bottom: 4rem; font-family: 'Arial', sans-serif; font-weight: 300; }
+
+        /* About */
+        .about-content { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center; margin-bottom: 3rem; }
+        .about-text { font-size: 1.05rem; line-height: 1.8; color: #1a1a2e; font-family: 'Arial', sans-serif; }
+        .about-text p { margin-bottom: 1.5rem; }
+        .about-text a { color: #0055CC; text-decoration: none; font-weight: 600; transition: color 0.3s ease; }
+        .about-text a:hover { color: #0078FF; }
+        .about-images { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+        .about-image { width: 100%; height: 280px; object-fit: cover; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,120,255,0.2); transition: all 0.3s ease; }
+        .about-image:hover { transform: translateY(-5px); box-shadow: 0 15px 40px rgba(0,120,255,0.35); }
+
+        /* Services */
+        .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 2rem; margin-top: 3rem; }
+        .service-card { background: linear-gradient(135deg, #fff 0%, #F4F7FB 100%); padding: 2.5rem; border-radius: 20px; box-shadow: 0 8px 25px rgba(0,120,255,0.1); transition: all 0.4s ease; border: 1px solid rgba(0,120,255,0.15); }
+        .service-card:hover { transform: translateY(-10px); box-shadow: 0 15px 45px rgba(0,120,255,0.2); border-color: #0078FF; }
+        .service-card h3 { font-size: 1.5rem; color: #0a2a6e; margin-bottom: 1rem; font-weight: 600; }
+        .service-card p { font-size: 1rem; color: #333; line-height: 1.7; font-family: 'Arial', sans-serif; }
+        .service-card a { color: #0055CC; text-decoration: none; font-weight: 600; }
+        .service-card a:hover { color: #0078FF; }
+
+        /* Blog / Why Choose */
+        .blog-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(380px, 1fr)); gap: 3rem; margin-top: 3rem; }
+        .blog-article { background: #fff; padding: 3rem; border-radius: 20px; box-shadow: 0 8px 25px rgba(0,120,255,0.1); border-left: 4px solid #0078FF; transition: all 0.3s ease; }
+        .blog-article:hover { box-shadow: 0 12px 35px rgba(0,120,255,0.2); transform: translateX(5px); }
+        .blog-article h3 { font-size: 1.6rem; color: #0a2a6e; margin-bottom: 1.5rem; font-weight: 600; }
+        .blog-article p { font-size: 1rem; color: #333; line-height: 1.8; font-family: 'Arial', sans-serif; }
+        .blog-article a { color: #0055CC; text-decoration: none; font-weight: 600; }
+        .blog-article a:hover { color: #0078FF; }
+
+        /* FAQ */
+        .faq-container { max-width: 900px; margin: 0 auto; }
+        .faq-item { background: #fff; margin-bottom: 1.5rem; border-radius: 15px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,120,255,0.1); transition: all 0.3s ease; }
+        .faq-item:hover { box-shadow: 0 6px 25px rgba(0,120,255,0.18); }
+        .faq-question { background: linear-gradient(135deg, #0a2a6e 0%, #0055CC 100%); color: #fff; padding: 1.5rem 2rem; cursor: pointer; font-size: 1.2rem; font-weight: 600; display: flex; justify-content: space-between; align-items: center; transition: all 0.3s ease; font-family: 'Arial', sans-serif; }
+        .faq-question:hover { background: linear-gradient(135deg, #0055CC 0%, #0078FF 100%); }
+        .faq-question::after { content: '+'; font-size: 2rem; color: #7EC8FF; transition: transform 0.3s ease; }
+        .faq-question.active::after { transform: rotate(45deg); }
+        .faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.4s ease, padding 0.4s ease; padding: 0 2rem; font-family: 'Arial', sans-serif; }
+        .faq-answer.active { max-height: 500px; padding: 1.5rem 2rem; }
+        .faq-answer p { color: #333; line-height: 1.7; }
+
+        /* Map */
+        .map-container { border-radius: 20px; overflow: hidden; box-shadow: 0 8px 25px rgba(0,120,255,0.2); height: 500px; width: 100%; }
+        .map-container iframe { width: 100%; height: 100%; border: none; }
+
+        /* Footer */
+        footer { background: linear-gradient(135deg, #0a0a1a 0%, #1a1a2e 100%); color: #F4F7FB; padding: 4rem 2rem 2rem; position: relative; overflow: hidden; }
+        footer::before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: radial-gradient(circle at 20% 80%, rgba(0,120,255,0.08) 0%, transparent 50%), radial-gradient(circle at 80% 20%, rgba(0,200,255,0.06) 0%, transparent 50%); pointer-events: none; }
+        .footer-content { max-width: 1400px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 3rem; margin-bottom: 2rem; position: relative; z-index: 1; }
+        .footer-section { text-align: center; }
+        .footer-section h3 { color: #7EC8FF; font-size: 1.4rem; margin-bottom: 1.5rem; font-weight: 600; letter-spacing: 1px; }
+        .footer-section p, .footer-section a { color: #cce4ff; text-decoration: none; line-height: 2; font-family: 'Arial', sans-serif; display: block; transition: all 0.3s ease; margin: 0.4rem 0; font-size: 0.95rem; }
+        .footer-section a:hover { color: #7EC8FF; }
+        .footer-bottom { text-align: center; padding-top: 2rem; border-top: 1px solid rgba(0,120,255,0.3); color: #7EC8FF; font-family: 'Arial', sans-serif; position: relative; z-index: 1; font-size: 0.9rem; }
+
+        /* Scroll Animation */
+        .animate-on-scroll { opacity: 0; transform: translateY(30px); transition: all 0.6s ease-out; }
+        .animate-on-scroll.animated { opacity: 1; transform: translateY(0); }
+
+        /* Responsive */
+        @media (max-width: 1024px) { .about-content { grid-template-columns: 1fr; } .services-grid, .blog-grid { grid-template-columns: 1fr; } }
+        @media (max-width: 768px) { .hero h1 { font-size: 2.2rem; } .section-title { font-size: 1.9rem; } .header-content { flex-direction: column; text-align: center; } .hero-cta { flex-direction: column; } .about-images { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <div class="header-content">
+        <div class="logo-section">
+            <img src="https://audiovideosnyc.com/wp-content/uploads/2026/01/AVN-Logo.jpg" alt="Audio Videos NYC Logo" class="logo">
+            <div class="brand-name">Audio Videos NYC</div>
+        </div>
+        <div class="header-buttons">
+            <a href="tel:212-671-3330" class="btn-header btn-phone">Call: 212-671-3330</a>
+            <a href="http://audiovideosnyc.com/" target="_blank" class="btn-header btn-website">Visit Website</a>
+        </div>
+    </div>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+    <div class="hero-content">
+        <h1>Top Tips for Choosing an Audio Video Systems Installation NYC Expert</h1>
+        <p class="hero-subheading">Trusted Audio Video Systems Installation NYC — delivering expert AV, CCTV, surveillance, and conference room solutions across Manhattan and the five boroughs.</p>
+        <div class="hero-cta">
+            <a href="https://audiovideosnyc.com/contact-us/" target="_blank" class="btn-hero btn-secondary">Contact Us
+</a>
+        </div>
+    </div>
+</section>
+
+<!-- About -->
+<section id="about" class="animate-on-scroll">
+    <h2 class="section-title">About Us</h2>
+    <div class="about-content">
+        <div class="about-text">
+            <p>At <a href="http://audiovideosnyc.com/" target="_blank"><strong>Audio Videos NYC</strong></a>, we are a premier provider of <a href="http://audiovideosnyc.com/" target="_blank"><strong>Audio Video Systems Installation NYC</strong></a> services, helping businesses and homeowners throughout New York City build smarter, more connected environments. Our mission is to deliver cutting-edge AV technology solutions that enhance productivity, security, and entertainment — all installed with precision and professionalism.</p>
+
+            <p>As an experienced <a href="https://maps.app.goo.gl/FC5oWs3iZjmVCNft6" target="_blank"><strong>Audio Video Systems Installation NYC</strong></a> company, we specialize in conference room AV setups, tech audio camera installations, CCTV and surveillance systems, and full video camera installations across Manhattan and the greater NYC area. Every project starts with a thorough site assessment to ensure the right solution is designed for your space and goals.</p>
+
+            <p>Our certified technicians bring years of hands-on experience to every installation, ensuring clean, reliable results with minimal disruption to your business or home. As a local <a href="http://audiovideosnyc.com/" target="_blank"><strong>Audio Video Systems Installation NYC</strong></a> specialist, we understand the fast-paced demands of New York clients and deliver timely, high-quality service every time.</p>
+
+            <p>At Audio Videos NYC, client satisfaction drives everything we do. Whether you need a fully integrated conference room AV system or a comprehensive surveillance network, our team is committed to delivering solutions that perform flawlessly and add lasting value to your property.</p>
+        </div>
+        <div class="about-images">
+            <img src="https://audiovideosnyc.com/wp-content/uploads/2026/01/13268-1024x695.jpg" alt="Audio Video Systems Installation NYC" class="about-image">
+            <img src="https://audiovideosnyc.com/wp-content/uploads/2026/01/2025-12-10.jpg" alt="Conference Room AV Installation NYC" class="about-image">
+        </div>
+    </div>
+</section>
+
+<!-- Services -->
+<section id="services" class="animate-on-scroll">
+    <h2 class="section-title">Our Services</h2>
+    <p class="section-subtitle">Comprehensive AV and security solutions for businesses and homes across NYC and Manhattan</p>
+    <div class="services-grid">
+        <div class="service-card">
+            <h3>Audio Video Systems Installation NYC</h3>
+            <p>Our core specialty is end-to-end <a href="http://audiovideosnyc.com/" target="_blank"><strong>Audio Video Systems Installation NYC</strong></a> for commercial and residential clients. We design, supply, and install fully integrated AV systems tailored to your space and budget. From boardrooms to living rooms, every system is configured for flawless performance, intuitive control, and long-term reliability across all of New York City.</p>
+        </div>
+        <div class="service-card">
+            <h3>Conference Room AV Installation</h3>
+            <p>We specialize in professional <a href="http://audiovideosnyc.com/" target="_blank"><strong>conference room AV installation</strong></a> that transforms your meeting spaces into powerful collaboration hubs. Our solutions include display systems, video conferencing equipment, audio systems, and control panels — all seamlessly integrated and easy to operate, helping your team communicate clearly and efficiently in any NYC office environment.</p>
+        </div>
+        <div class="service-card">
+            <h3>Tech Audio Camera Installation NYC</h3>
+            <p>Our <a href="https://maps.app.goo.gl/FC5oWs3iZjmVCNft6" target="_blank"><strong>tech audio camera installation NYC</strong></a> service delivers high-performance audio and camera systems for offices, retail spaces, and residences. We handle everything from product selection to mounting, cabling, and programming. The result is crystal-clear audio and video coverage that meets your exact security and communication requirements.</p>
+        </div>
+        <div class="service-card">
+            <h3>CCTV & Surveillance Camera Installation NYC</h3>
+            <p>Protect your property with our expert <a href="http://audiovideosnyc.com/" target="_blank"><strong>CCTV camera installation NYC</strong></a> and <strong>surveillance camera installation NYC</strong> services. We install high-definition indoor and outdoor camera systems with remote monitoring capabilities, motion detection, and secure cloud or local storage. Our surveillance solutions give you complete visibility and peace of mind around the clock.</p>
+        </div>
+        <div class="service-card">
+            <h3>Video Camera Installation NYC & Manhattan</h3>
+            <p>Our <a href="https://maps.app.goo.gl/FC5oWs3iZjmVCNft6" target="_blank"><strong>video camera installation NYC</strong></a> and <strong>video camera installation Manhattan</strong> services cover a wide range of applications — from security monitoring to professional broadcast setups. We assess your site, recommend the ideal camera hardware, and handle all installation and configuration work to ensure optimal coverage and image quality.</p>
+        </div>
+        <div class="service-card">
+            <h3>Audio Visual Consultant NYC</h3>
+            <p>Need expert guidance before investing in AV technology? Our <a href="http://audiovideosnyc.com/" target="_blank"><strong>audio visual consultant NYC</strong></a> service provides detailed assessments, system design recommendations, and technology roadmaps. We help you make informed decisions that align with your operational goals and budget — ensuring every dollar you invest in AV technology delivers maximum return.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Why Choose -->
+<section id="why-choose" class="animate-on-scroll">
+    <h2 class="section-title">Why Choose Audio Videos NYC?</h2>
+    <p class="section-subtitle">The NYC AV partner trusted by businesses and homeowners alike</p>
+    <div class="blog-grid">
+        <article class="blog-article">
+            <h3>NYC's Trusted AV Installation Experts</h3>
+            <p>With years of hands-on experience in <a href="http://audiovideosnyc.com/" target="_blank"><strong>Audio Video Systems Installation NYC</strong></a>, our team brings unmatched technical knowledge and craftsmanship to every project. We are certified professionals who stay current with the latest AV technologies and installation best practices — so your system is always built to the highest standard, first time, every time.</p>
+        </article>
+        <article class="blog-article">
+            <h3>End-to-End Solutions Under One Roof</h3>
+            <p>From initial consultation and system design to installation, programming, and ongoing support, Audio Videos NYC handles every aspect of your AV or security project. Whether it's a <a href="https://maps.app.goo.gl/FC5oWs3iZjmVCNft6" target="_blank"><strong>conference room AV installation near me</strong></a> search that brought you here or a city-wide surveillance rollout, we are your single point of contact for flawless results across Manhattan and all NYC boroughs.</p>
+        </article>
+        <article class="blog-article">
+            <h3>Local Knowledge, Premium Service</h3>
+            <p>Based in the heart of Manhattan at 13-15 W 28th St, we understand the unique challenges of installing AV and security systems in New York City buildings — from pre-war architecture to modern high-rises. Our local expertise means faster response times, better site preparation, and a smoother installation experience. Choose Audio Videos NYC and get a team that knows this city inside and out.</p>
+        </article>
+    </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="animate-on-scroll">
+    <h2 class="section-title">Frequently Asked Questions</h2>
+    <p class="section-subtitle">Answers to common questions about our Audio Video Systems Installation NYC services</p>
+    <div class="faq-container">
+        <div class="faq-item">
+            <div class="faq-question">What does a professional Audio Video Systems Installation NYC service include?</div>
+            <div class="faq-answer">
+                <p>A professional Audio Video Systems Installation NYC service includes a site assessment, system design, supply of hardware and cabling, full installation and mounting, system programming and configuration, and a walkthrough to ensure you know how to operate everything. At Audio Videos NYC, we also provide ongoing support and maintenance to keep your systems running at peak performance long after the initial installation.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">Can you install conference room AV systems in existing NYC office spaces?</div>
+            <div class="faq-answer">
+                <p>Absolutely. We regularly install conference room AV systems in existing commercial spaces throughout Manhattan and NYC. Our team carefully plans cable routing, equipment placement, and control systems to minimize disruption to your workspace. Whether you are upgrading an outdated meeting room or equipping a newly leased office, we deliver a seamless, professional result tailored to your layout and budget.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">What types of surveillance and CCTV cameras do you install?</div>
+            <div class="faq-answer">
+                <p>We install a wide range of CCTV and surveillance camera systems, including IP cameras, analog HD cameras, PTZ (pan-tilt-zoom) cameras, dome cameras, bullet cameras, and thermal imaging cameras. Each system is configured with the right combination of indoor and outdoor cameras, recording equipment, and remote viewing capabilities to provide comprehensive security coverage for your property.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">Do you offer Audio Video Systems Installation services outside of Manhattan?</div>
+            <div class="faq-answer">
+                <p>Yes! While we are based in Manhattan, Audio Videos NYC provides Audio Video Systems Installation services across all five boroughs of New York City and surrounding areas. Whether your project is in Brooklyn, Queens, the Bronx, Staten Island, or Manhattan, our team is fully equipped and ready to deliver the same high standard of professional service at your location.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">How long does a typical AV or surveillance installation take?</div>
+            <div class="faq-answer">
+                <p>Project timelines vary depending on the scope and complexity of the installation. A standard conference room AV setup typically takes one to two days, while a multi-floor surveillance camera installation may take several days. During your initial consultation, our team will provide a clear project timeline and work schedule that minimizes disruption to your daily operations. We always aim to complete every project on time and within budget.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Location -->
+<section id="location" class="animate-on-scroll">
+    <h2 class="section-title">Find Us on Google</h2>
+    <p class="section-subtitle">Visit or contact our Manhattan office — serving all of NYC</p>
+    <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.7612646952634!2d-73.9881098!3d40.745278400000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259fb5c58374f%3A0x6da889e235a9d26e!2sAudio%20Videos%20NYC!5e0!3m2!1sen!2s!4v1772436905027!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="footer-content">
+        <div class="footer-section">
+            <h3>Contact Information</h3>
+            <p><strong>Audio Videos NYC</strong></p>
+            <p>13-15 W 28th St #15, New York, NY 10001</p>
+            <a href="tel:212-671-3330">212-671-3330</a>
+            <a href="http://audiovideosnyc.com/" target="_blank">www.audiovideosnyc.com</a>
+        </div>
+        <div class="footer-section">
+            <h3>Our Services</h3>
+            <a href="http://audiovideosnyc.com/">Audio Video Systems Installation NYC</a>
+            <a href="http://audiovideosnyc.com/">Conference Room AV Installation</a>
+            <a href="http://audiovideosnyc.com/">CCTV Camera Installation NYC</a>
+            <a href="http://audiovideosnyc.com/">Surveillance Camera Installation NYC</a>
+            <a href="http://audiovideosnyc.com/">Video Camera Installation Manhattan</a>
+            <a href="http://audiovideosnyc.com/">Audio Visual Consultant NYC</a>
+        </div>
+        <div class="footer-section">
+            <h3>About Our Audio Video Systems Installation NYC</h3>
+            <p>Our Audio Video Systems Installation NYC services are designed to enhance productivity, security, and entertainment for businesses and homes across New York City. From conference room AV solutions to full surveillance networks, every system is custom-designed, professionally installed, and built to last. We combine technical expertise with local knowledge to deliver AV solutions that truly work for the demands of New York City.</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2025 Audio Videos NYC. All rights reserved.</p>
+    </div>
+</footer>
+
+<script>
+    document.querySelectorAll('.faq-question').forEach(q => {
+        q.addEventListener('click', () => {
+            const ans = q.nextElementSibling;
+            const isActive = ans.classList.contains('active');
+            document.querySelectorAll('.faq-answer').forEach(a => a.classList.remove('active'));
+            document.querySelectorAll('.faq-question').forEach(x => x.classList.remove('active'));
+            if (!isActive) { ans.classList.add('active'); q.classList.add('active'); }
+        });
+    });
+
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+        a.addEventListener('click', function(e) {
+            e.preventDefault();
+            const t = document.querySelector(this.getAttribute('href'));
+            if (t) t.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+    });
+
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('animated'); });
+    }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+    document.querySelectorAll('.animate-on-scroll').forEach(el => observer.observe(el));
+
+    document.querySelectorAll('.service-card').forEach((c, i) => { c.style.animationDelay = `${i * 0.1}s`; });
+</script>
+</body>
+</html>
